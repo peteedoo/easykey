@@ -1,0 +1,187 @@
+{
+  "BTTPresetName": "MX Master Modifier Layers",
+  "BTTPresetUUID": "mx-master-modifiers-2026-05-v2",
+  "BTTPresetContent": [
+    {
+      "BTTAppBundleIdentifier": "BT.G",
+      "BTTAppName": "Global",
+      "BTTTriggers": [
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 0,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":4,\"BTTMouseRequiredModifiers\":0,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "osascript -e 'tell application \"System Events\" to keystroke \"[\" using command down'"
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 1,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":4,\"BTTMouseRequiredModifiers\":4,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "osascript -e 'tell application \"System Events\" to keystroke \"c\" using command down'"
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 2,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":4,\"BTTMouseRequiredModifiers\":8,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "osascript -e 'tell application \"System Events\" to keystroke \"w\" using command down'"
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 3,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":4,\"BTTMouseRequiredModifiers\":12,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "hs -c 'mouse.snapLeft()'"
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 4,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":5,\"BTTMouseRequiredModifiers\":0,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "osascript -e 'tell application \"System Events\" to keystroke \"]\" using command down'"
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 5,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":5,\"BTTMouseRequiredModifiers\":4,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "osascript -e 'tell application \"System Events\" to keystroke \"v\" using command down'"
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 6,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":5,\"BTTMouseRequiredModifiers\":8,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "osascript -e 'tell application \"System Events\" to keystroke \"t\" using {command down, shift down}'"
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 7,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":5,\"BTTMouseRequiredModifiers\":12,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "hs -c 'mouse.snapRight()'"
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 8,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":6,\"BTTMouseRequiredModifiers\":0,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "osascript -e 'tell application \"System Events\" to key code 48 using command down'"
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 9,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":6,\"BTTMouseRequiredModifiers\":4,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "osascript -e 'tell application \"System Events\" to keystroke \"v\" using {command down, shift down}'"
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 10,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":6,\"BTTMouseRequiredModifiers\":8,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "osascript -e 'tell application \"System Events\" to key code 126 using control down'"
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 11,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":6,\"BTTMouseRequiredModifiers\":12,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "hs -c 'mouse.maximize()'"
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 12,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":3,\"BTTMouseRequiredModifiers\":0,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 1
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 13,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":3,\"BTTMouseRequiredModifiers\":4,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "osascript -e 'tell application \"System Events\" to keystroke \"4\" using {command down, shift down}'"
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 14,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":3,\"BTTMouseRequiredModifiers\":8,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "osascript -e 'tell application \"System Events\" to key code 125 using control down'"
+        },
+        {
+          "BTTTriggerType": -1,
+          "BTTTriggerTypeDescription": "Mouse Button Click",
+          "BTTTriggerClass": "BTTTriggerTypeNormalMouse",
+          "BTTEnabled2": 1,
+          "BTTEnabled": 1,
+          "BTTOrder": 15,
+          "BTTAdditionalConfiguration": "{\"BTTMouseButtonNumber\":3,\"BTTMouseRequiredModifiers\":12,\"BTTMouseShowHUD\":false}",
+          "BTTPredefinedActionType": 137,
+          "BTTTerminalCommand": "hs -c 'mouse.browserToggle()'"
+        }
+      ]
+    }
+  ]
+}

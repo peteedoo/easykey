@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+._*
+
+# Secrets
+.env
+.env.*
+!*.env.example
+*.pem
+*.key
+*.crt
+
+# promote
+.promote.conf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+
