@@ -2,12 +2,12 @@
 
 from __future__ import annotations
 
+import copy
 import tkinter as tk
-from tkinter import ttk, simpledialog
+from tkinter import simpledialog, ttk
 from typing import Callable, Dict, List, Optional
 
 from easykey.models.keymap import Keymap, Layer, ReorderLayerCommand
-import copy
 
 
 class LayerTabs(ttk.Frame):
