@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-import struct
-import warnings
 from typing import List, Optional
 
 from easykey.detection.hid_scanner import KeyboardInfo

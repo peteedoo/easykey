@@ -6,14 +6,14 @@ import json
 import tkinter as tk
 from pathlib import Path
 from tkinter import filedialog, messagebox, simpledialog, ttk
-from typing import Any, Callable, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 from easykey.config import Config
+from easykey.detection.hid_scanner import KeyboardInfo
 from easykey.layouts.database import LayoutDatabase
 from easykey.layouts.kle_parser import KLEParser
-from easykey.models.keymap import KeyBinding, Keymap, UndoStack
+from easykey.models.keymap import KeyBinding, Keymap
 from easykey.models.snapshot import SnapshotManager
-from easykey.detection.hid_scanner import KeyboardInfo
 from easykey.ui.layer_tabs import LayerTabs
 from easykey.ui.wizard import FirstRunWizard
 

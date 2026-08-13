@@ -6,7 +6,6 @@ import json
 from pathlib import Path
 from typing import Any, Dict, Optional
 
-
 APP_NAME = "EasyKey"
 APP_VERSION = "1.0.0"
 
